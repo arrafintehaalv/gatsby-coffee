@@ -16,9 +16,6 @@ export default function Info() {
               animi facilis, odio quasi dolorem pariatur soluta laborum, ullam
               officiis officia perspiciatis praesentium totam dignissimos.
             </p>
-            <Link to="/about">
-              <button className="btn-yellow text-uppercase">about page</button>
-            </Link>
           </div>
         </div>
       </div>
