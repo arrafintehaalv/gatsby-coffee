@@ -8,6 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
+import Footer from "./Globals/Footer"
 
 import "./layout.css"
 import "./bootstrap.min.css"
@@ -17,6 +18,7 @@ const Layout = ({ children }) => (
   <>
     <Navbar />
     {children}
+    <Footer />
   </>
 )
 
