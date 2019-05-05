@@ -7,7 +7,7 @@ import "../../components/layout.css"
 export default class Navbar extends Component {
   state = {
     navbarOpen: false,
-    css: "collapse navbar-collapse n text-center",
+    css: "collapse navbar-collapse",
     links: [
       {
         id: 1,
@@ -27,11 +27,11 @@ export default class Navbar extends Component {
     this.state.navbarOpen
       ? this.setState({
           navbarOpen: false,
-          css: "collapse navbar-collapse n text-center",
+          css: "collapse navbar-collapse",
         })
       : this.setState({
           navbarOpen: true,
-          css: "collapse navbar-collapse show n text-center",
+          css: "collapse navbar-collapse show",
         })
   }
 
