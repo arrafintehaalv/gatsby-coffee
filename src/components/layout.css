@@ -71,6 +71,10 @@ h6 {
 nav.n {
   position: fixed;
   width: 100%;
+  background: var(--mainYellow);
+  color: var(--mainWhite);
+}
+nav.n:hover {
   background: #222;
   color: var(--mainWhite);
 }
