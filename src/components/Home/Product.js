@@ -25,6 +25,10 @@
 //   )
 // }
 
+import React, { Component } from "react"
+// import Title from "../Globals/Title"
+import Img from "gatsby-image"
+
 const getCategories = product => {
   let tempProducts = product.map(products => {
     return products.node.category
