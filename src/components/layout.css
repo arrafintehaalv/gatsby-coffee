@@ -68,6 +68,6 @@ h6 {
   background: var(--mainGrey);
 }
 
-nav {
+nav.n {
   position: fixed;
 }
