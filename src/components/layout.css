@@ -76,3 +76,7 @@ nav.n {
 button.b {
   background: #ff9e09;
 }
+
+button.b:hover {
+  background: #222;
+}
