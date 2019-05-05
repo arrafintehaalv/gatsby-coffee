@@ -68,7 +68,7 @@ h6 {
   background: var(--mainGrey);
 }
 
-nav.n {
+div.n {
   position: fixed;
   width: 100%;
 }
