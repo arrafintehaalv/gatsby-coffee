@@ -78,5 +78,6 @@ button.b {
 }
 
 button.b:hover {
-  background: #222;
+  background: rgb(61, 34, 3);
+  color: var(--mainWhite);
 }
