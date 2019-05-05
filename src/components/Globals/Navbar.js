@@ -7,7 +7,8 @@ import "../../components/layout.css"
 export default class Navbar extends Component {
   state = {
     navbarOpen: false,
-    css: "collapse navbar-collapse",
+    css:
+      "collapse navbar-collapse navbar navbar-expand-sm bg-light navbar-light",
     links: [
       {
         id: 1,
@@ -27,11 +28,13 @@ export default class Navbar extends Component {
     this.state.navbarOpen
       ? this.setState({
           navbarOpen: false,
-          css: "collapse navbar-collapse",
+          css:
+            "collapse navbar-collapse navbar navbar-expand-sm bg-light navbar-light",
         })
       : this.setState({
           navbarOpen: true,
-          css: "collapse navbar-collapse show",
+          css:
+            "collapse navbar-collapse show navbar navbar-expand-sm bg-light navbar-light",
         })
   }
 
@@ -53,7 +56,7 @@ export default class Navbar extends Component {
             <span className="navbar-toggler-icon" />
           </button>
           <div className={this.state.css}>
-            <ul className="n navbar-nav mx-auto">
+            <ul className="navbar-nav mx-auto">
               {this.state.links.map(link => {
                 return (
                   <li key={link.id} className="nav-item">
