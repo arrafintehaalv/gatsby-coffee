@@ -67,3 +67,7 @@ h6 {
 .contact {
   background: var(--mainGrey);
 }
+
+.l {
+  position: fixed;
+}
