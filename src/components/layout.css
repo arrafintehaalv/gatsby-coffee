@@ -71,6 +71,8 @@ h6 {
 nav.n {
   position: fixed;
   width: 100%;
+  background: #222;
+  color: var(--mainWhite);
 }
 
 button.b {
