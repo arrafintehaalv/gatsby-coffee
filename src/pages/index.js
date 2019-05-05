@@ -18,7 +18,7 @@ const IndexPage = ({ data }) => (
     />
     <Info />
     <Menu items={data.menu} />
-    <Products />
+    <Products product={data.products} />
     <Contact />
   </Layout>
 )
@@ -45,6 +45,22 @@ export const query = graphql`
           image {
             fixed(width: 50, height: 50) {
               ...GatsbyContentfulFixed_tracedSVG
+            }
+          }
+        }
+      }
+    }
+    products: allContentfulCoffeeProduct {
+      edges {
+        node {
+          id
+          title
+          price
+          category
+          image {
+            fluid(maxHeight: 426) {
+              src
+              ...GatsbyContentfulFluid_tracedSVG
             }
           }
         }
