@@ -69,5 +69,5 @@ h6 {
 }
 
 div.n {
-  position: sticky;
+  position: fixed;
 }

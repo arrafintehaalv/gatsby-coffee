@@ -37,7 +37,7 @@ export default class Navbar extends Component {
 
   render() {
     return (
-      <div className="n">
+      <div className="n mx-auto">
         <nav className="navbar navbar-expand-sm bg-light navbar-light">
           <Link to="/" className="navbar-brand">
             <img src={logo} alt="logo" />
