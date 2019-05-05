@@ -71,4 +71,5 @@ h6 {
 nav.n {
   position: fixed;
   width: 100%;
+  overflow: hidden;
 }
