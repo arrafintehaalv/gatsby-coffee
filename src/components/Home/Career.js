@@ -54,7 +54,7 @@ export default function Career() {
             {/* CV */}
             <div className="form-group">
               <label htmlFor="CV">
-                Put Your CV(only jpg, png files are supported)
+                Put Your CV(only jpg, png files supported)
               </label>
               <input
                 type="hidden"
