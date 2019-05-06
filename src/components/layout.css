@@ -76,10 +76,11 @@ nav.n {
 
 button.b {
   background: #ff9e09;
+  transition: 1s;
 }
 
 button.b:hover {
   background: rgb(61, 34, 3);
   color: var(--mainWhite);
-  transition-duration: 1s;
+  font-size: 1.2em;
 }
