@@ -2,10 +2,6 @@ import React from "react"
 import Title from "../Globals/Title"
 import uploadcare from "uploadcare-widget"
 
-{
-  /* <script>UPLOADCARE_PUBLIC_KEY = "dc3d824e4b7f20a09682"</script> */
-}
-
 export default function Career() {
   return (
     <section className="contact py-5">
@@ -58,7 +54,7 @@ export default function Career() {
             {/* CV */}
             <div className="form-group">
               <label htmlFor="CV">
-                Put Your CV as a pdf, doc, jpg, png file
+                Put Your CV(only jpg, png files are supported)
               </label>
               <input
                 type="hidden"
@@ -68,9 +64,7 @@ export default function Career() {
                 id="CV"
               />
             </div>
-            {/* <div>
-              <input type="hidden" name="cv" role="uploadcare-uploader" />
-            </div> */}
+
             {/* description */}
             <div className="form-group">
               <label htmlFor="description">Description</label>
@@ -96,12 +90,3 @@ export default function Career() {
     </section>
   )
 }
-
-// componentDidMount() {
-//     const script = document.createElement("script");
-
-//     script.src = "https://ucarecdn.com/libs/widget/3.x/uploadcare.full.min.js";
-//     script.async = true;
-
-//     document.body.appendChild(script);
-// }
