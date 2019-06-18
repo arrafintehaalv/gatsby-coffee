@@ -46,7 +46,7 @@ export default function Career() {
               >
                 <option />
                 <option value="Manager">Manager</option>
-                <option value="Shelf">Shelf</option>
+                <option value="Chef">Shelf</option>
                 <option value="Waiter">Waiter</option>
                 <option value="Guard">Guard</option>
               </select>
