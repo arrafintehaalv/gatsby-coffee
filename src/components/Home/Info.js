@@ -9,12 +9,10 @@ export default function Info() {
         <div className="row">
           <div className="col-10 col-sm-8 mx-auto text-center">
             <p className="lead text-muted mb-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-              nemo nam eos? Ea, culpa perferendis itaque ipsam necessitatibus
-              soluta, ullam reiciendis sed pariatur nam hic alias minus ab.
-              Voluptates adipisci aperiam voluptate, mollitia laudantium aliquid
-              animi facilis, odio quasi dolorem pariatur soluta laborum, ullam
-              officiis officia perspiciatis praesentium totam dignissimos.
+              For us, it's not just about bringing good foods from our
+              restaurant, it's about making a connection, which is why we sit
+              down with the chefs, dreaming up menus that will arrive fresh and
+              full of flavor. Try us!
             </p>
           </div>
         </div>

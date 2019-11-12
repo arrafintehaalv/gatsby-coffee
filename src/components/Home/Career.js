@@ -1,6 +1,6 @@
 import React from "react"
 import Title from "../Globals/Title"
-import uploadcare from "uploadcare-widget"
+// import uploadcare from "uploadcare-widget"
 
 export default function Career() {
   return (
@@ -9,7 +9,7 @@ export default function Career() {
       <div className="row">
         <div className="col-10 col-sm-8 col-md-6 mx-auto">
           <form
-            action="https://formspree.io/arrafinteha@gmail.com"
+            action="https://formspree.io/a1rrafintehaalvy518@gmail.com"
             method="POST"
           >
             {/* name */}
@@ -46,13 +46,13 @@ export default function Career() {
               >
                 <option />
                 <option value="Manager">Manager</option>
-                <option value="Chef">Shelf</option>
+                <option value="Chef">Chef</option>
                 <option value="Waiter">Waiter</option>
                 <option value="Guard">Guard</option>
               </select>
             </div>
             {/* CV */}
-            <div className="form-group">
+            {/* <div className="form-group">
               <label htmlFor="CV">
                 Put Your CV(only jpg, png files supported)
               </label>
@@ -63,7 +63,8 @@ export default function Career() {
                 className="form-control"
                 id="CV"
               />
-            </div>
+              
+            </div> */}
 
             {/* description */}
             <div className="form-group">
