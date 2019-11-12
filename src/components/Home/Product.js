@@ -107,7 +107,7 @@ export default class Product extends Component {
                           className="b btn mt-3 text-capitalize snipcart-add-item"
                           data-item-id={node.id}
                           data-item-name={node.title}
-                          data-item-price={node.price / 80}
+                          data-item-price={node.price}
                           data-item-image={node.image.fluid.src}
                           data-item-url="https://coffeefun.netlify.com/"
                         >
