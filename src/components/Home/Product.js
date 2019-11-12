@@ -109,7 +109,7 @@ export default class Product extends Component {
                           data-item-name={node.title}
                           data-item-price={node.price / 80}
                           data-item-image={node.image.fluid.src}
-                          data-item-url="https://coffeefun.netlify.com"
+                          data-item-url="https://www.coffeefun.netlify.com"
                         >
                           add to cart
                         </button>
